@@ -62,9 +62,4 @@
     <Build Include="trade.sql" />
     <Build Include="insert_trade.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="tradedatabase.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>
