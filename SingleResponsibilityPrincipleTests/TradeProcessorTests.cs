@@ -84,6 +84,7 @@ namespace SingleResponsibilityPrinciple.Tests
             Assert.AreEqual(endCount - startCount, 0);
         }
 
+
         [TestMethod]
         public void TestTradeAmountBoounds()
         {

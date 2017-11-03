@@ -67,16 +67,6 @@ namespace SingleResponsibilityPrinciple
                 LogMessage("WARN", " Trade amount on line {0} not a valid integer: '{1}'", currentLine, fields[1]);
                 return false;
             }
-            if (tradeAmount<1000)
-            {
-                LogMessage("WARN", " Trade amount on line {0} is too small: '{1}'", currentLine, fields[1]);
-                return false;
-            }
-            if (tradeAmount > 100000)
-            {
-                LogMessage("WARN", " Trade amount on line {0} is too small: '{1}'", currentLine, fields[1]);
-                return false;
-            }
 
             decimal tradePrice;
             if (!decimal.TryParse(fields[2], out tradePrice))
@@ -90,11 +80,7 @@ namespace SingleResponsibilityPrinciple
 
         private void LogMessage(string msgType, string message, params object[] args)
         {
-            Console.WriteLine(message, args);
-            using (StreamWriter logfile = File.AppendText("log.xml"))
-            {
-                logfile.WriteLine("<log><type>"+msgType+"</type><message>" + message + "</message></log> ", args);
-            }
+            Console.WriteLine(msgType+ " :" +message, args);
         }
 
         private TradeRecord MapTradeDataToTradeRecord(string[] fields)
