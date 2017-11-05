@@ -3,3 +3,8 @@ C:\Users\tgibbons\source\repos\cis-3285-unit-9-practice-tgibbons-css\Database\bi
 C:\Users\tgibbons\source\repos\cis-3285-unit-9-practice-tgibbons-css\Database\bin\Debug\Database.pdb
 C:\Users\tgibbons\source\repos\cis-3285-unit-9-practice-tgibbons-css\Database\obj\Debug\Database.dll
 C:\Users\tgibbons\source\repos\cis-3285-unit-9-practice-tgibbons-css\Database\obj\Debug\Database.pdb
+C:\School\Software Design\Unit 9\Database\bin\Debug\Database.dacpac
+C:\School\Software Design\Unit 9\Database\bin\Debug\Database.dll
+C:\School\Software Design\Unit 9\Database\bin\Debug\Database.pdb
+C:\School\Software Design\Unit 9\Database\obj\Debug\Database.dll
+C:\School\Software Design\Unit 9\Database\obj\Debug\Database.pdb
