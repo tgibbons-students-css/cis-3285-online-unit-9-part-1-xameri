@@ -6,6 +6,8 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
+// Farah
+
 namespace SingleResponsibilityPrinciple
 {
     public class TradeProcessor
